@@ -5,21 +5,18 @@ header{
 }
 
 .navbar{
-    
     display: flex;
     justify-content:space-between;
     align-items: center;
     max-width: 1024px;
     margin: 0 auto;
     margin-bottom: 50px;
-
 }
 .name-logo{
     margin: 0 10px;
     text-decoration: none;
     font-size: large;
     color: var(--white);
-
 }
 .nav-list{
     display: flex;
@@ -27,6 +24,7 @@ header{
     margin: 0;
     padding: 0;
 }
+
 .nav-item{
     padding: 0  10px;
     margin: 0 16px;
@@ -63,7 +61,7 @@ header{
 
 }
 .hero img{
-    border-radius: 50%;
+    border-radius: 10%;
     border: 5px solid var(--primary);
 }
 .hero-content{
@@ -209,7 +207,6 @@ header{
     background-color: var(--primary);
     color: var(--white);
     transform: rotateY(180deg);
-
 }
 .skill-header{
     border: 2px solid var(--white);
